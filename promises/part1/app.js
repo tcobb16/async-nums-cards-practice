@@ -8,7 +8,7 @@ $.getJSON(`${baseURL}/${favNum}?json`).then(data => {
 
   
   // 2
-let favNums = [7, 11, 22];
+let favNums = [2, 4, 6];
 $.getJSON(`${baseURL}/${favNums}?json`).then(data => {
     console.log(data);
   });
