@@ -16,7 +16,7 @@ button {
     margin-top: 80px;
   }
   
-  #card-area > img {
+  #cards > img {
     position: absolute;
     left: 0;
     right: 0;

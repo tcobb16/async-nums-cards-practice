@@ -39,7 +39,7 @@ $(function() {
     $btn.on('click', function() {
       $.getJSON(`${baseURL}/${deckId}/draw/`).then(data => {
         let cardSrc = data.cards[0].image;
-        $cardArea.append(
+        $cards.append(
           $('<img>', {
             src: cardSrc
           })
